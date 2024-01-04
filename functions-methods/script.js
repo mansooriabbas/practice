@@ -69,5 +69,64 @@
 
 // const finalSum = bill([10,15,30],0.2)
 
-
 // console.log(finalSum);
+
+// //functions
+// const name = "sil"
+// const greet = () => "hello";
+
+// let resultOne = greet();
+
+// console.log(resultOne);
+
+// //methods
+// let resultTwo = name.toUpperCase()
+// console.log(resultTwo);
+
+//callbacks & foreach
+
+// const myFunc = (callbackFunc) => {
+//     //do something
+//     let value = 50
+//     callbackFunc(value)
+// }
+
+// myFunc(value => {
+//     //do something
+//     console.log(value);
+// })
+
+// const fnames = [
+//   "tony",
+//   "carmela",
+//   "meadow",
+//   "anthony",
+//   "christopher",
+//   "silvio",
+//   "paulie",
+//   "adriana",
+//   "jennifer",
+//   "bobby",
+// ];
+
+// const logPerson = (person, index) => {
+//   console.log(`${index} Hello ${person}`);
+// };
+
+// fnames.forEach(logPerson);
+
+// fnames.forEach((name, index) => {
+//   console.log(index, name.charAt(0).toUpperCase() + name.slice(1, name.length));
+// });
+
+
+// const ul = document.querySelector(".people")
+
+// let html = ""
+
+// fnames.forEach((person)=>{
+//     html += `<li style="color: blue">${person}</>`
+//     ul.innerHTML = html
+// })
+
+//object literals
