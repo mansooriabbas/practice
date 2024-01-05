@@ -12,7 +12,6 @@
 
 // console.log(errors);
 
-
 // //get an element by ID
 // const title = document.getElementById("page-title")
 // console.log(title);
@@ -20,5 +19,29 @@
 // const errors = document.getElementsByClassName("error") //returns a html collection, forEach does not work but bracketnotation works
 // console.log(errors);
 // //get lements by their tag name
-const paras = document.getElementsByTagName("p")
-console.log(paras[1]);
+// const paras = document.getElementsByTagName("p")
+// console.log(paras[1]);
+
+// const para = document.querySelector("p");
+
+// // console.log(para.innerText);
+
+// // para.innerText = "Hello Boss"
+
+// const paras = document.querySelectorAll("p");
+
+// // paras.forEach((para) => {
+// //     para.innerText = "hello boss"
+// // })
+
+// const content = document.querySelector(".content");
+
+// // console.log(content.innerHTML);
+
+// // content.innerHTML += "<h2>This is a new H2 </h2>"
+
+// const people = ["Charlie", "Steve", "Deborah"];
+
+// people.forEach((person) => {
+//   content.innerHTML += `<p>${person}</p>`;
+// });
