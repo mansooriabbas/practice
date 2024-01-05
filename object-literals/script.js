@@ -51,3 +51,23 @@
 // const random = Math.random()
 // console.log(random);
 // console.log(Math.round(random * 100));
+
+//primitive values
+let scoreOne = 50
+let scoreTwo = scoreOne
+
+console.log(`score:${scoreOne}`, `scoreTwo:${scoreTwo}`);
+
+scoreOne = 100
+console.log(`score:${scoreOne}`, `scoreTwo:${scoreTwo}`);
+
+//reference values
+//stored once with 2 seperate pointers
+
+const userOne = {name: "Tony", age: 30}
+const userTwo = userOne
+
+console.log(userOne, userTwo);
+
+userOne.age = 40
+console.log(userOne, userTwo);
