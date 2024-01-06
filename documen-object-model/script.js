@@ -90,3 +90,57 @@
 // title.classList.toggle("success")
 // title.classList.toggle("success")
 // title.classList.toggle("success")
+
+// const article = document.querySelector("article");
+
+// console.log(article.children);
+
+// const articleArr = Array.from(article.children);
+// console.log(articleArr);
+
+// articleArr.forEach((art) => {
+//     art.classList.add("success")
+// })
+
+// const title = document.querySelector("h2")
+
+// console.log(title.parentElement);
+// console.log(title.parentElement.parentElement);
+// console.log(title.nextElementSibling);
+// console.log(title.previousElementSibling);
+// console.log(title.nextElementSibling.parentElement.children);
+
+// const button = document.querySelector("button")
+
+// button.addEventListener("click", (e) => {
+//     e.preventDefault()
+//     console.log("you clicked the button");
+// })
+
+// const button = document.querySelector("button");
+// const ul = document.querySelector("ul");
+// button.addEventListener("click", () => {
+//   const li = document.createElement("li");
+//   ul.append(li);
+//   ul.prepend(li);
+//   li.textContent = "something new to do";
+// });
+
+// const items = document.querySelectorAll("li");
+
+// items.forEach((item) => {
+//   item.addEventListener("click", (e) => {
+//     // item.style = "display: none";
+//     // e.target.style = "display: none";
+//     // e.target.style.display =  "none";
+//     e.stopPropagation()
+//     e.target.remove();
+//   });
+// });
+
+// ul.addEventListener("click", (e) => {
+//     console.log(e.target);
+//     if(e.target.tagName === "LI"){
+//         e.target.remove()
+//     }
+// });
