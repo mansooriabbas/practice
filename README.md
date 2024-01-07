@@ -1,7 +1,5 @@
 # JavaScript Course Exercises
 
-This repository contains Javascript exercises.  
+This repository showcases my adaptations and exercises from "The Net Ninja's Modern JavaScript" course.
 
-Exercises are organized into different folders based on different topics.
-
-
+Exercises are neatly organized within folders corresponding to different topics covered in the course.
