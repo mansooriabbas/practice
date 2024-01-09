@@ -1,22 +1,33 @@
-body{
-    background: #352f5b;
-  }
-  .container{
-    max-width: 400px;
-  }
-  input[type=text],
-  input[type=text]:focus{
-    color: #fff;
-    border: none;
-    background: rgba(0,0,0,0.2);
-    max-width: 400px;
-  }
-  .todos li{
-    background: #423a6f;
-  }
-  .delete{
-    cursor: pointer;
-  }
-  .filtered{
-    display: none !important;
-  }
+body {
+  background-color: #352f5b;
+}
+.container {
+  max-width: 400px;
+}
+input[type="text"],
+input[type="text"]:focus {
+  color: #fff;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+}
+.todos li {
+  background-color: #423a6f;
+  border: 0;
+  margin: 2px;
+}
+.delete {
+  cursor: pointer;
+}
+.filtered {
+  display: none !important;
+}
+
+span {
+  color: white;
+}
+
+.search-form::placeholder {
+    color: #ffffff; 
+    font-style: italic; 
+}
