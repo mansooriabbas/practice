@@ -28,6 +28,10 @@ span {
 }
 
 .search-form::placeholder {
-    color: #ffffff; 
-    font-style: italic; 
+  color: #ffffff;
+  font-style: italic;
+}
+
+i {
+  color: white;
 }
