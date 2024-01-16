@@ -54,4 +54,3 @@ console.log(users);
 userThree.deleteUser(userOne);
 console.log(users);
 
-//011 built in objects
